@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 @RequestMapping("/")
 public class FirstController {
-    //ResponseBody 以字符串响应
+    //ResponseBody 以字符串响应 test connection
     @ResponseBody
     @RequestMapping("/hello.do")
     public String hello(){
